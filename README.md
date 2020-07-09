@@ -3,8 +3,9 @@
 사용된 github<br>
 ---
 파일실행<br>
-
->gcc -o run test.c
+```
+gcc -o run test.c
+```
 
 github등대<br>
 ```
@@ -57,7 +58,7 @@ sudo ufw status
 sudo ufw disable
 ```
 
-vim 편집기 설정
+__vim 편집기 설정__
 ```
 set nu                     <Linenumbet 
 set cindent                 < C language indent
@@ -72,5 +73,19 @@ if has("syntax") // syntax on<br>
 syntax on<br>
  endif 
  ```
- ##DHT11 센서 설치
- >gif clone https://github.com/adafruit/Adafruit_Python_DHT.git
+ #DHT11 센서 설치
+ ```
+ gif clone https://github.com/adafruit/Adafruit_Python_DHT.git
+ cd Adafruit_Python_DHT
+ sudo python setup.py install
+ cd Adafruit_Python_Dht/examples
+ ```
+ 실행<br>
+ ```
+ python AdafruitDHT.py 11 4
+ or python simpletest.py
+ ```
+ 
+ #유입DB설치
+ ---
+ 

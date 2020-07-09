@@ -27,13 +27,13 @@ git add.
 git commit -m upload
 ```
 
-github구성<br>
+github구성
 ```
-git config --gobal user.email "email"<br>
+git config --gobal user.email "email"
 git config -- gobal user.name " user name"
 ```
 
-당기기<br>
+당기기
 ```
 git push
 ```
@@ -43,34 +43,34 @@ git 푸시 오류 vim
 git pull
 ```
 
-고정IP<br>
+고정IP
 ```
-sudo apt-get install vim (빔설치)<br>
+sudo apt-get install vim (빔설치)
 vim /etc/dhcpcd.conf
 ```
 
-방화벽<br>
+방화벽
 ```
-sudo ufw allow (port)<br>
-sudo ufw enable<br>
-sudo ufw status<br>
+sudo ufw allow (port)
+sudo ufw enable
+sudo ufw status
 sudo ufw disable
 ```
 
 vim 편집기 설정
 ```
-set nu                     <Linenumbet<br>  
-set cindent                 < C language indent<br>
-set ts=4                    < tab size 4<br>
-set softtabstop=4<br>        
-set bg =dark<br>
-set expandtab<br>
-let python_version_2 =1<br>
-let python_highlight_all=1<br>
+set nu                     <Linenumbet 
+set cindent                 < C language indent
+set ts=4                    < tab size 4
+set softtabstop=4       
+set bg =dark
+set expandtab
+let python_version_2 =1
+let python_highlight_all=1
 filetype indent plugin on<br>
 if has("syntax") // syntax on<br>
 syntax on<br>
  endif 
  ```
  ##DHT11 센서 설치
- >gif clone https://github.com/adafruit/Adafruit_Python_DHT.git<br>
+ >gif clone https://github.com/adafruit/Adafruit_Python_DHT.git

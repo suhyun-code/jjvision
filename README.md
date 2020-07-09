@@ -60,17 +60,18 @@ sudo ufw disable
 
 __vim 편집기 설정__
 ```
+vim . vimrc
 set nu                     <Linenumbet 
 set cindent                 < C language indent
 set ts=4                    < tab size 4
 set softtabstop=4       
 set bg =dark
 set expandtab
-let python_version_2 =1
-let python_highlight_all=1
-filetype indent plugin on<br>
-if has("syntax") // syntax on<br>
-syntax on<br>
+let python_version_2 = 1
+let python_highlight_all = 1
+filetype indent plugin on
+if has("syntax")             <syntax on
+    syntax on
  endif 
  ```
  #DHT11 센서 설치
@@ -88,6 +89,7 @@ syntax on<br>
  
  #유입DB설치
  ---
+ 
  1.리포지토리 GPG키
  ---
  ```

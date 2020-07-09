@@ -88,4 +88,67 @@ syntax on<br>
  
  #유입DB설치
  ---
- 
+ 1.리포지토리 GPG키
+ ---
+ ```
+ curl -sL https://repos.infulxdata.com/influxdb.key | sudo apt-key add-
+ ```
+ 2.저장소 추가
+ ---
+ ```
+ echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+ ```
+ 3.프로그램설치
+ ---
+ ```
+ sudo apt update
+ sudo apt install influxdb
+ ```
+ 4.실행
+ ---
+ ```
+ sudo service influxdb start
+ influx
+ ```
+ 5.DB만들기
+ ---
+ ```
+ > create database 데이터베이스 이름
+ ```
+ 5.1 확인
+ ---
+ ```
+ show databases
+ ```
+ 5.2 > 나가기
+ ---
+ ```
+ exit
+ ```
+ ##그라파나 설치
+ ---
+ 1.리포지토리 GPG 키
+ ```
+ curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo apt-key add-
+ ```
+ 2.저장소 추가
+ ---
+ ```
+ echo "deb https://dl.bintray.com/fg2it/deb stretch main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+ ```
+ 3.설치
+ ---
+ ```
+ sudo apt update
+ sudo apt install grafana
+ ```
+ 4.실행
+ ---
+ ```
+ sudo service grafana-server start
+ ```
+ 파이썬과 유입DB 가져오기
+ ---
+ ```
+ sudo pip install influxdb
+ ```

@@ -87,7 +87,7 @@ if has("syntax")             <syntax on
  or python simpletest.py
  ```
  
- #유입DB설치
+ # 유입DB설치
  ---
  
  1.리포지토리 GPG키
@@ -127,7 +127,7 @@ if has("syntax")             <syntax on
  ```
  exit
  ```
-  ##그라파나 설치
+  ## 그라파나 설치
  ---
  1.리포지토리 GPG 키
  ```

@@ -154,3 +154,8 @@ if has("syntax")             <syntax on
  ```
  sudo pip install influxdb
  ```
+시간경로바꾸기
+---
+```
+sudo raspi-config
+```

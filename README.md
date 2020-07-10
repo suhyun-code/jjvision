@@ -2,7 +2,7 @@
 ---
 사용된 github<br>
 ---
-파일실행<br>
+# 파일실행<br>
 ```
 gcc -o run test.c
 ```
@@ -127,7 +127,7 @@ if has("syntax")             <syntax on
  ```
  exit
  ```
- ##그라파나 설치
+  ##그라파나 설치
  ---
  1.리포지토리 GPG 키
  ```

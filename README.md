@@ -93,7 +93,7 @@ if has("syntax")             <syntax on
  1.리포지토리 GPG키
  ---
  ```
- curl -sL https://repos.infulxdata.com/influxdb.key | sudo apt-key add-
+curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
  ```
  2.저장소 추가
  ---
@@ -159,3 +159,7 @@ if has("syntax")             <syntax on
 ```
 sudo raspi-config
 ```
+```
+pip3 install python-telegram-bot --upgrade
+```
+git clone https://github

@@ -2,7 +2,7 @@
 ---
 사용된 github<br>
 ---
-# 파일실행<br>
+### 파일실행<br>
 ```
 gcc -o run test.c
 ```
